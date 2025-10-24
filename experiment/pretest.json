@@ -1,115 +1,117 @@
   {
 	  "version": 2.0,
   "questions": [
-    {
-      "question": "1. What does the term 'Gummel plot' specifically refer to in the context of BJT characterization?",
-      "answers": {
-        "a": "A plot of base-emitter voltage (V_BE) versus collector current (I_C)",
-        "b": "A plot of base current (I_B) versus base-emitter voltage (V_BE)",
-        "c": "A plot of collector current (I_C) versus base current (I_B)",
-        "d": "A plot of base-emitter voltage (V_BE) versus base current (I_B)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "beginner"
+    
+  {
+    "question": "1. What two distinct physical mechanisms are combined to model the total base-emitter capacitance in SPICE?",
+    "answers": {
+      "a": "Depletion capacitance and Diffusion capacitance",
+      "b": "Parasitic capacitance and Package capacitance",
+      "c": "Ohmic capacitance and Series capacitance",
+      "d": "Miller capacitance and Avalanche capacitance"
     },
-    {
-      "question": "2. In a Gummel plot, what does the slope of the base current (I_B) versus base-emitter voltage (V_BE) plot represent?",
-      "answers": {
-        "a": "Saturation current (I_S)",
-        "b": "Current gain (\u03b2)",
-        "c": "Emitter efficiency",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+    "correctAnswer": "a",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "2. The Forward Transit Time (`TF`) parameter is most closely related to which physical process?",
+    "answers": {
+      "a": "The time it takes for heat to dissipate from the junction.",
+      "b": "The time it takes for minority carriers (electrons) to cross the base.",
+      "c": "The time it takes for the depletion region to form.",
+      "d": "The time it takes for the junction to break down under reverse bias."
     },
-    {
-      "question": "3. The Gummel plot is commonly used to determine which of the following parameters of a BJT?",
-      "answers": {
-        "a": "Collector-emitter voltage (V_CE)",
-        "b": "Base-emitter voltage (V_BE)",
-        "c": "Saturation current (I_S)",
-        "d": "Thermal resistance (R_th)"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "3. A high-frequency BJT (a very fast transistor) would be expected to have what kind of Forward Transit Time (`TF`)?",
+    "answers": {
+      "a": "A very large transit time",
+      "b": "A very small transit time",
+      "c": "A negative transit time",
+      "d": "A transit time of zero"
     },
-    {
-      "question": "4. What is the primary purpose of characterizing a BJT using the Gummel plot method?",
-      "answers": {
-        "a": "To analyze power dissipation",
-        "b": "To optimize frequency response",
-        "c": "To extract key parameters like current gain and saturation current",
-        "d": "To measure voltage drop across the collector-emitter junction"
-      },
-      "correctAnswer": "c",
-      "difficulty": "intermediate"
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "4. When is the base-emitter *diffusion* capacitance at its largest value?",
+    "answers": {
+      "a": "When the transistor is in cutoff (off)",
+      "b": "When the B-E junction is reverse-biased",
+      "c": "When the transistor is heavily forward-biased (on)",
+      "d": "It is a constant value and does not change"
     },
-    {
-      "question": "5. What does the ideality factor in a BJT refer to?",
-      "answers": {
-        "a": "A measure of how closely the BJT follows the ideal exponential relationship",
-        "b": "A measure of collector current efficiency",
-        "c": "A measure of base current leakage",
-        "d": "A measure of temperature dependence"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+    "correctAnswer": "c",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "5. When is the base-emitter *depletion* capacitance at its largest value?",
+    "answers": {
+      "a": "When the B-E junction is heavily reverse-biased",
+      "b": "When the B-E junction is heavily forward-biased",
+      "c": "When the collector voltage is at its maximum",
+      "d": "It is a constant value and does not change"
     },
-    {
-      "question": "6. How does the Gummel plot help in analyzing BJT operation in different regions?",
-      "answers": {
-        "a": "By identifying breakdown voltage",
-        "b": "By showing linear and saturation regions clearly",
-        "c": "By measuring thermal resistance",
-        "d": "By calculating power gain"
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "6. For a B-E junction with a linearly graded doping profile, what value would be expected for the grading coefficient (`MJE`)?",
+    "answers": {
+      "a": "Approximately one-half",
+      "b": "Approximately one-third",
+      "c": "Exactly one",
+      "d": "Exactly zero"
     },
-    {
-      "question": "7. What does the slope of the collector current (I_C) versus base-emitter voltage (V_BE) plot determine?",
-      "answers": {
-        "a": "Emitter efficiency",
-        "b": "Saturation current (I_S)",
-        "c": "Current gain (\u03b2)",
-        "d": "Thermal voltage (V_T)"
-      },
-      "correctAnswer": "b",
-      "difficulty": "advanced"
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "7. For an abrupt (step) junction, which plot linearizes the C-V data to allow for parameter extraction?",
+    "answers": {
+      "a": "A plot of capacitance versus voltage",
+      "b": "A plot of the inverse of capacitance cubed versus voltage",
+      "c": "A plot of the inverse of capacitance squared versus voltage",
+      "d": "A plot of the log of capacitance versus voltage"
     },
-    {
-      "question": "8. In a Gummel plot, what does the term 'early effect' refer to?",
-      "answers": {
-        "a": "Voltage dependence of collector current",
-        "b": "Temperature dependence of base current",
-        "c": "Voltage dependence of base current",
-        "d": "Temperature dependence of collector current"
-      },
-      "correctAnswer": "a",
-      "difficulty": "advanced"
+    "correctAnswer": "c",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "8. From the slope of the *correct* linearized plot (e.g., inverse capacitance squared vs. voltage), what physical property can be extracted?",
+    "answers": {
+      "a": "The junction's doping concentration",
+      "b": "The forward transit time",
+      "c": "The forward beta",
+      "d": "The base resistance"
     },
-    {
-      "question": "9. How can the Gummel plot aid in optimizing BJT circuit design?",
-      "answers": {
-        "a": "By minimizing thermal resistance",
-        "b": "By maximizing current gain",
-        "c": "By ensuring proper biasing and performance",
-        "d": "By increasing breakdown voltage"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
+    "correctAnswer": "a",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "9. How does the B-E depletion capacitance change as the *reverse bias* on the B-E junction is increased?",
+    "answers": {
+      "a": "It increases, as the depletion region shrinks.",
+      "b": "It decreases, as the depletion region widens.",
+      "c": "It stays the same, as it is a fixed property.",
+      "d": "It becomes the diffusion capacitance."
     },
-    {
-      "question": "10. What region of operation is characterized by a Gummel plot where collector current (I_C) remains relatively constant with changes in base-emitter voltage (V_BE)?",
-      "answers": {
-        "a": "Cut-off",
-        "b": "Active",
-        "c": "Saturation",
-        "d": "Breakdown"
-      },
-      "correctAnswer": "c",
-      "difficulty": "advanced"
-    }
+    "correctAnswer": "b",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "10. Which extracted parameter is the most critical for modeling the high-frequency *gain* (fT) of the transistor?",
+    "answers": {
+      "a": "`CJE` (B-E Zero-Bias Capacitance)",
+      "b": "`VJE` (B-E Built-in Potential)",
+      "c": "`TF` (Forward Transit Time)",
+      "d": "`MJE` (B-E Grading Coefficient)"
+    },
+    "correctAnswer": "c",
+    "difficulty": "intermediate"
+  }
+
   ]
 }
