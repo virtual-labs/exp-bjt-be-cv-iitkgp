@@ -1,0 +1,118 @@
+
+  {
+	  "version": 2.0,
+  "questions": [
+    
+  {
+    "question": "1. What two distinct physical mechanisms are combined to model the total base-emitter capacitance in SPICE?",
+    "answers": {
+      "a": "Depletion capacitance and Diffusion capacitance",
+      "b": "Parasitic capacitance and Package capacitance",
+      "c": "Ohmic capacitance and Series capacitance",
+      "d": "Miller capacitance and Avalanche capacitance"
+    },
+    "correctAnswer": "a",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "2. The Forward Transit Time (`TF`) parameter is most closely related to which physical process?",
+    "answers": {
+      "a": "The time it takes for heat to dissipate from the junction.",
+      "b": "The time it takes for minority carriers to cross the base.",
+      "c": "The time it takes for the depletion region to form.",
+      "d": "The time it takes for the junction to break down under reverse bias."
+    },
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "3. A high-frequency BJT (a very fast transistor) would be expected to have what kind of Forward Transit Time (`TF`)?",
+    "answers": {
+      "a": "A very large transit time",
+      "b": "A very small transit time",
+      "c": "A negative transit time",
+      "d": "A transit time of zero"
+    },
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "4. When is the base-emitter *diffusion* capacitance at its largest value?",
+    "answers": {
+      "a": "When the transistor is in cutoff (off)",
+      "b": "When the B-E junction is reverse-biased",
+      "c": "When the transistor is heavily forward-biased (on)",
+      "d": "It is a constant value and does not change"
+    },
+    "correctAnswer": "c",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "5. When is the base-emitter *depletion* capacitance at its largest value?",
+    "answers": {
+      "a": "When the B-E junction is heavily reverse-biased",
+      "b": "When the B-E junction is heavily forward-biased",
+      "c": "When the collector voltage is at its maximum",
+      "d": "It is a constant value and does not change"
+    },
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "6. For a B-E junction with a linearly graded doping profile, what value would be expected for the grading coefficient (`MJE`)?",
+    "answers": {
+      "a": "Approximately one-half",
+      "b": "Approximately one-third",
+      "c": "Exactly one",
+      "d": "Exactly zero"
+    },
+    "correctAnswer": "b",
+    "difficulty": "intermediate"
+  },
+  {
+    "question": "7. For an abrupt (step) junction, which plot linearizes the C-V data to allow for parameter extraction?",
+    "answers": {
+      "a": "A plot of capacitance versus voltage",
+      "b": "A plot of the inverse of capacitance cubed versus voltage",
+      "c": "A plot of the inverse of capacitance squared versus voltage",
+      "d": "A plot of the log of capacitance versus voltage"
+    },
+    "correctAnswer": "c",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "8. From the slope of the *correct* linearized plot (e.g., inverse capacitance squared vs. voltage), what physical property can be extracted?",
+    "answers": {
+      "a": "The junction's doping concentration",
+      "b": "The forward transit time",
+      "c": "The forward beta",
+      "d": "The base resistance"
+    },
+    "correctAnswer": "a",
+    "difficulty": "advanced"
+  },
+  {
+    "question": "9. How does the B-E depletion capacitance change as the *reverse bias* on the B-E junction is increased?",
+    "answers": {
+      "a": "It increases, as the depletion region shrinks.",
+      "b": "It decreases, as the depletion region widens.",
+      "c": "It stays the same, as it is a fixed property.",
+      "d": "It becomes the diffusion capacitance."
+    },
+    "correctAnswer": "b",
+    "difficulty": "beginner"
+  },
+  {
+    "question": "10. Which extracted parameter is the most critical for modeling the high-frequency *gain* (fT) of the transistor?",
+    "answers": {
+      "a": "`CJE` (B-E Zero-Bias Capacitance)",
+      "b": "`VJE` (B-E Built-in Potential)",
+      "c": "`TF` (Forward Transit Time)",
+      "d": "`MJE` (B-E Grading Coefficient)"
+    },
+    "correctAnswer": "c",
+    "difficulty": "intermediate"
+  }
+
+  ]
+}
